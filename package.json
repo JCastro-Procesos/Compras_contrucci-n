@@ -1,0 +1,12 @@
+{
+  "name": "itm-herramienta-compras",
+  "version": "1.0.0",
+  "description": "Herramienta de determinación de instrumento de compra (OS / Precontrato / Contrato) - ITM Group",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node --test test/engine.test.js test/api.test.js"
+  },
+  "engines": { "node": ">=22.5" },
+  "optionalDependencies": { "nodemailer": "^6.9.14" }
+}
